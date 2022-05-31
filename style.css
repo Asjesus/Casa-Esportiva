@@ -52,7 +52,7 @@ header img{
     width: 100vw;
     background-color: #1ba954;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10vw;
@@ -61,16 +61,17 @@ header img{
 }
 .menu-lojas img {
     height: 10vw;
-    padding-left: 40vw;
+    padding-left: 5vw;
 }
 
 .menu-lojas a{
     font-size: 6vw;
     height: 10vw;
+
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 900;  
+    font-weight: 800;  
 }
 
 hr{
@@ -81,6 +82,26 @@ hr{
 }
 
 footer{
-    height: 20vw;
+    height: 25vw;
     background-color: #fa3737;
+  
+}
+
+.roda-pe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+}
+.roda-pe img{
+    height: 15vw;
+}
+.roda-pe p{
+    font-size: 6vw;
+    height: 5vw;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;  
+    
 }
