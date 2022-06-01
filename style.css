@@ -44,28 +44,36 @@ header img{
 
 .menu-geral{
    padding-top: 5vw;
+   background-color: inherit;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-direction: column;
+   
+   
 }
 
 .menu-lojas{
 
     height: 15vw;
-    width: 100vw;
+    width: 90vw;
     background-color: #1ba954;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border-radius: 10vw;
+    
+    border-radius: 20vw;
    
 
 }
 .menu-lojas img {
     height: 10vw;
-    padding-left: 5vw;
+    padding-left: 3vw;
+    
 }
 
 .menu-lojas a{
-    font-size: 6vw;
+    font-size: 5vw;
     height: 10vw;
 
     color: white;
